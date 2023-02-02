@@ -82,6 +82,8 @@ header div ul {
 .about {
     background-color: var(--dsg);
     display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .about-card {
@@ -114,6 +116,64 @@ h3 {
 .projects {
     background-color: gray;
     border: 3px solid white;
+}
+
+.displays{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project1 {
+    display: block;
+    background-image: url("../02-Challenge/Assets/project1preview.png");
+    background-size:cover;
+    background-position: top;
+    height: 600px;
+    width: 95%;
+    border: 10px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.project1:hover {
+    opacity: .4;
+}
+
+
+.project2 {
+    display: block;
+    background-image: url("../02-Challenge/Assets/project2preview.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 45%;
+    border: 10px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.project2:hover {
+    opacity: .4;
+}
+
+.project3 {
+    display: block;
+    background-image: url("../02-Challenge/Assets/placeholder.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 45%;
+    border: 10px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.project3:hover {
+    opacity: .4;
 }
 
 h4 {
