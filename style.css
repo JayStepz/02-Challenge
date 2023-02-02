@@ -1,3 +1,10 @@
+:root {
+    --dsg: darkslategray;
+    --bgc: #2a607c;
+    --txt1: #ffffff;
+    --pleft: 15%;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,13 +16,14 @@ html {
 }
 
 body {
-    background-color:darkslategray;
+    background-color:var(--dsg);
 }
 
 header {
     padding: 20px;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color:var(--bgc);
+    color:var(--txt1);
+    border: 10px double var(--dsg);
 }
 
 h1 {
@@ -43,16 +51,46 @@ header div ul li {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background-image: url("../02-Challenge/Assets/Profile.jpg");
-    height: 1000px;
-    width: 410px;
+    height: 100rem;
+    width: 41rem;
     background-size: cover;
     background-position: center;
+    border: 10px groove var(--bgc);
 }
 
 .about {
-    background-color: white;
+    background-color: var(--dsg);
+    display: block;
+}
+
+.about-card {
+    background-color: red;
+    height:fit-content;
+    width: 500px;
+    display: block;
+    font-size: 20px;
+}
+
+h2 {
+    display: block;
+    font-size: 2.5rem;
+    height:fit-content;
+    width:fit-content;
+    background-color:red;
     border: 3px solid black;
+    border-radius: 3px;
+    border-bottom: 0px;
+    margin-left:15%;
+}
+
+h3 {
+    display: block;
+    font-size: 2.5rem;
+    text-align:center;
+    text-decoration:underline;
 }
 
 .projects {
@@ -61,19 +99,19 @@ header div ul li {
 }
 
 h4 {
-    display: inline-block;
+    display: block;
     font-size: 38px;
 }
 
 a {
-    color: #ffffff;
+    color:var(--txt1);
     text-decoration: none;
 }
 
 footer {
     padding: 20px;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color:var(--bgc);
+    color:var(--txt1);
 }
 
 footer div {
@@ -93,5 +131,9 @@ footer div ul li {
 }
 
 p {
-    
+    display: block;
+    text-align: center;
+    margin-left: 15%;
+    border: 3px solid black;
+    border-radius: 5px;
 }
