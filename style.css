@@ -24,6 +24,7 @@ header {
     background-color:var(--bgc);
     color:var(--txt1);
     border: 10px double var(--dsg);
+    border-radius: 10px;
 }
 
 h1 {
@@ -32,8 +33,7 @@ h1 {
 }
 
 header div {
-    padding-top: 15px;
-    margin-right: 20px;
+    padding-top: 3.5px;
     float: right;
     font-size: 20px;
 }
@@ -42,9 +42,27 @@ header div ul {
     list-style-type: none;
 }
 
-header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+.link-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.top-boxes {
+    font-size: 30px;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box-1:hover {
+    background-color: red;
+}
+.box-2:hover {
+    background-color: gray;
+}
+.box-3:hover {
+    background-color: darkorange;
 }
 
 .me {
@@ -110,12 +128,12 @@ a {
 
 footer {
     padding: 20px;
-    background-color:var(--bgc);
+    background-color: darkorange;
     color:var(--txt1);
 }
 
 footer div {
-    padding-top: 15px;
+    padding-top: 3.5px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
@@ -125,9 +143,17 @@ footer div ul {
     list-style-type: none;
 }
 
-footer div ul li {
-    display: inline-block;
-    margin-left: 25px;
+.contact-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.lowbox {
+    font-size: 30px;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 p {
