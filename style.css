@@ -121,58 +121,43 @@ h3 {
 .displays{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-evenly;
 }
 
 .project1 {
     display: block;
     background-image: url("../02-Challenge/Assets/project1preview.png");
     background-size:cover;
-    background-position: top;
     height: 600px;
-    width: 95%;
     border: 10px solid black;
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.project1:hover {
-    opacity: .4;
-}
-
-
 .project2 {
     display: block;
     background-image: url("../02-Challenge/Assets/project2preview.png");
     background-size: cover;
-    background-position: center;
     height: 400px;
-    width: 45%;
     border: 10px solid black;
     border-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.project2:hover {
-    opacity: .4;
+    margin-top:10px;
+    margin-bottom:20px;
 }
 
 .project3 {
     display: block;
     background-image: url("../02-Challenge/Assets/placeholder.jpg");
     background-size: cover;
-    background-position: center;
     height: 400px;
-    width: 45%;
     border: 10px solid black;
     border-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top:10px;
+    margin-bottom:20px;
 }
 
-.project3:hover {
+.hover:hover {
     opacity: .4;
 }
 
@@ -210,8 +195,8 @@ footer div ul {
 }
 
 .lowbox {
-    font-size: 30px;
-    border: 2px white solid;
+    font-size: 25px;
+    border: 2px black solid;
     border-radius: 10px;
     padding: 5px;
 }
