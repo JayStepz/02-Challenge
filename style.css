@@ -138,6 +138,7 @@ h3 {
 .displays{
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     flex-shrink: 2;
     justify-content:space-evenly;
 }
