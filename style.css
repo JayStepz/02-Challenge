@@ -16,9 +16,12 @@ html {
 }
 
 body {
-    background-color:var(--dsg);
     display: flex;
     flex-direction: column;
+}
+
+#grad1 {
+    background-image: linear-gradient(to right, rgba(47, 79, 79, .2), rgba(47, 79, 79,1)); 
 }
 
 header {
@@ -228,9 +231,6 @@ p {
 }
 
 @media (max-width: 720px) {
-    body {
-        background-color: white;
-    }
     header ul {
         flex-direction: column;
     }
