@@ -116,7 +116,7 @@ a {
     border-top: 20px solid var(--w);
 }
 
-/*About me text box/*
+/*About me text box*/
 .about-card {
     background-color: var(--w);
     height:fit-content;
